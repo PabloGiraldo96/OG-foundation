@@ -107,83 +107,81 @@ export default function SocialCultural() {
 
       <Navbar />
       {/* Main Content */}
-      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          className="text-center mb-16"
-          initial="hidden"
-          animate="visible"
-          variants={fadeInUp}
-        >
-          {/* skills issue  */}
-          <br />
-          <br />
-          <br />
-          <br />
-          <h1 className="text-4xl md:text-5xl font-bold mb-8">
-            Hablemos de Cannabis:
-            <br />
-            Información y Consumo Responsable
-          </h1>
-          <p className="max-w-3xl mx-auto text-lg text-gray-300 mt-8">
-            Únete a nosotros para una conversación reveladora y educativa sobre
-            el cannabis, diseñada para promover un entendimiento claro y
-            responsable de esta planta fascinante. En Hablemos de Cannabis,
-            abordaremos temas esenciales que te ayudarán a tomar decisiones
-            informadas sobre el consumo.
-          </p>
-        </motion.div>
+      <div className="w-full">
+        <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24">
+          <motion.div
+            className="text-center mb-16"
+            initial="hidden"
+            animate="visible"
+            variants={fadeInUp}
+          >
+            {/* skills issue  */}
 
-        {/* Educational Points */}
-        <motion.div
-          className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16"
-          variants={staggerChildren}
-          initial="hidden"
-          animate="visible"
-        >
-          {educationalPoints.map((point, index) => (
-            <motion.div
-              key={index}
-              className="bg-white/5 backdrop-blur-sm rounded-lg p-6 text-center hover:bg-white/10 transition-colors"
-              variants={fadeInUp}
-            >
-              <h3 className="text-xl font-semibold">{point}</h3>
-            </motion.div>
-          ))}
-        </motion.div>
+            <h1 className="text-4xl md:text-5xl font-bold mb-8">
+              Hablemos de Cannabis:
+              <br />
+              Información y Consumo Responsable
+            </h1>
+            <p className="max-w-3xl mx-auto text-lg text-gray-300 mt-8">
+              Únete a nosotros para una conversación reveladora y educativa
+              sobre el cannabis, diseñada para promover un entendimiento claro y
+              responsable de esta planta fascinante. En Hablemos de Cannabis,
+              abordaremos temas esenciales que te ayudarán a tomar decisiones
+              informadas sobre el consumo.
+            </p>
+          </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-        >
-          {/* Image Carousel */}
-          <Carousel className="w-full max-w-4xl mx-auto">
-            <CarouselContent>
-              {carouselImages.map((image, index) => (
-                <CarouselItem key={index}>
-                  <div className="relative aspect-[16/9] overflow-hidden rounded-lg">
-                    <Image
-                      src={image.src || "/placeholder.svg"}
-                      alt={image.alt}
-                      fill
-                      className="object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                    <div className="absolute bottom-0 left-0 right-0 p-6">
-                      <h3 className="text-2xl font-bold text-white">
-                        {image.title}
-                      </h3>
+          {/* Educational Points */}
+          <motion.div
+            className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16"
+            variants={staggerChildren}
+            initial="hidden"
+            animate="visible"
+          >
+            {educationalPoints.map((point, index) => (
+              <motion.div
+                key={index}
+                className="bg-white/5 backdrop-blur-sm rounded-lg p-6 text-center hover:bg-white/10 transition-colors"
+                variants={fadeInUp}
+              >
+                <h3 className="text-xl font-semibold">{point}</h3>
+              </motion.div>
+            ))}
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            {/* Image Carousel */}
+            <Carousel className="w-full max-w-4xl mx-auto">
+              <CarouselContent>
+                {carouselImages.map((image, index) => (
+                  <CarouselItem key={index}>
+                    <div className="relative aspect-[16/9] overflow-hidden rounded-lg">
+                      <Image
+                        src={image.src || "/placeholder.svg"}
+                        alt={image.alt}
+                        fill
+                        className="object-cover"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                      <div className="absolute bottom-0 left-0 right-0 p-6">
+                        <h3 className="text-2xl font-bold text-white">
+                          {image.title}
+                        </h3>
+                      </div>
                     </div>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="text-white" />
-            <CarouselNext className="text-white" />
-          </Carousel>
-        </motion.div>
-      </main>
-
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="text-white" />
+              <CarouselNext className="text-white" />
+            </Carousel>
+          </motion.div>
+        </main>
+      </div>
       <motion.div
         className="text-center mb-16 mt-32"
         initial="hidden"
@@ -284,12 +282,15 @@ export default function SocialCultural() {
               placeholder="Email"
               className="bg-neutral-800 border-neutral-700"
             />
-            <Button
-              variant="outline"
-              className="text-black border-white hover:bg-white/20"
-            >
-              Enviar
-            </Button>
+            <Link href="mailto:oghousemed@gmail.com" passHref>
+              <Button
+                //href="mailto:oghousemed@gmail.com"
+                variant="outline"
+                className="text-black hover:scale-105 border-black "
+              >
+                Enviar
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

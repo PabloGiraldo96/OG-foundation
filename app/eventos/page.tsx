@@ -91,42 +91,8 @@ const testimonials: TestimonialType[] = [
 export default function EventosComponent() {
   return (
     <section className="min-h-screen bg-black text-white overflow-hidden">
-      {/*<motion.nav
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="flex justify-between h-16 items-center px-4 md:px-8"
-      >
-        <div className="flex items-center">
-          <Link href="/" passHref>
-            <span className="text-xl font-semibold">OG House</span>
-          </Link>
-        </div>
-        <div className="hidden md:flex items-center space-x-8">
-          <Link href="/comercial" passHref>
-            <Button variant="link" className="text-white">
-              Comercial
-            </Button>
-          </Link>
-          <Link href="/eventos" passHref>
-            <Button variant="link" className="text-white">
-              Eventos
-            </Button>
-          </Link>
-          <Link href="/social-cultural" passHref>
-            <Button variant="link" className="text-white">
-              OG Foundation
-            </Button>
-          </Link>
-
-        </div>
-      </motion.nav>*/}
       <Navbar />
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* skills issue  */}
-        <br />
-        <br />
-        <br />
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24">
         <motion.h1
           className="text-4xl md:text-5xl font-bold text-white text-center mb-16"
           initial={{ opacity: 0, y: 20 }}

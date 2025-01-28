@@ -58,124 +58,95 @@ const testimonials: TestimonialType[] = [
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
-      {/*<motion.nav
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="flex justify-between h-16 items-center px-4 md:px-8"
-      >
-        <div className="flex items-center">
-          <Link href="/" passHref>
-            <span className="text-xl font-semibold">OG House</span>
-          </Link>
-        </div>
-        <div className="hidden md:flex items-center space-x-8">
-          <Link href="/comercial" passHref>
-            <Button variant="link" className="text-white">
-              Comercial
-            </Button>
-          </Link>
-          <Link href="/eventos" passHref>
-            <Button variant="link" className="text-white">
-              Eventos
-            </Button>
-          </Link>
-          <Link href="/social-cultural" passHref>
-            <Button variant="link" className="text-white">
-              OG Foundation
-            </Button>
-          </Link>
-        </div>
-      </motion.nav>*/}
-
       <Navbar />
 
       {/* Hero Section */}
-      <section
-        className="h-screen relative flex items-center justify-center"
-        style={{
-          backgroundImage: `url(${encodeURI(
-            "https://ucarecdn.com/359d459f-984e-4a43-a5dd-93308e3d3ea5/-/preview/1000x450/"
-          )})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 text-center mt-72">
-          <motion.h1
-            initial={{ opacity: 0, y: 25 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            className="text-7xl font-bold mb-4"
-          >
-            LINEAS DE SERVICIO
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.9 }}
-            className="text-3xl mt-8 mb-8"
-          >
-            OG HOUSE
-          </motion.p>
-        </div>
-      </section>
-      {/* Services Section */}
-      <LineasDeServicioComponent />
-
-      <ContentGrid />
-
-      <ResenaComponent />
-
-      {/*<SocialCultural />*/}
-      {/*<EventosComponent />*/}
-      <section className="py-24 ">
-        <div className="max-w-6xl mx-auto px-4 ">
-          <h2 className="text-4xl font-bold mb-12 text-center">Comentarios</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card
-                key={index}
-                className="bg-black/20 backdrop-blur-lg border-0 bg-neutral-900"
-              >
-                <CardContent className="p-6">
-                  <p className="text-gray-300 hover:text-white mb-4 text-lg">
-                    {testimonial.content}
-                  </p>
-                  <p className="font-semibold text-white">
-                    - {testimonial.name}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
+      <div className="w-full">
+        <section
+          className="h-screen relative flex items-center justify-center overflow-hidden"
+          style={{
+            backgroundImage: `url(${encodeURI(
+              "https://ucarecdn.com/359d459f-984e-4a43-a5dd-93308e3d3ea5/-/preview/1000x450/"
+            )})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="absolute inset-0 bg-black/50" />
+          <div className="relative z-10 text-center mt-72">
+            <motion.h1
+              initial={{ opacity: 0, y: 25 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="text-7xl font-bold mb-4"
+            >
+              LINEAS DE SERVICIO
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.9 }}
+              className="text-3xl mt-8 mb-8"
+            >
+              OG HOUSE
+            </motion.p>
           </div>
-        </div>
-      </section>
+        </section>
+        {/* Services Section */}
+        <LineasDeServicioComponent />
 
-      {/* Newsletter Section */}
-      <section className="py-24 px-4">
-        <div className="max-w-md mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-6">Envíanos un mensaje! </h2>
-          <div className="flex gap-2">
-            <Input
-              type="email"
-              placeholder="Email"
-              className="bg-neutral-800 border-neutral-700"
-            />
-            <Link href="mailto:oghousemed@gmail.com" passHref>
-              <Button
-                //href="mailto:oghousemed@gmail.com"
-                variant="outline"
-                className="text-black hover:scale-105 border-black "
-              >
-                Enviar
-              </Button>
-            </Link>
+        <ContentGrid />
+
+        <ResenaComponent />
+
+        <section className="py-24 ">
+          <div className="max-w-6xl mx-auto px-4 ">
+            <h2 className="text-4xl font-bold mb-12 text-center">
+              Comentarios
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              {testimonials.map((testimonial, index) => (
+                <Card
+                  key={index}
+                  className="bg-black/20 backdrop-blur-lg border-0 bg-neutral-900"
+                >
+                  <CardContent className="p-6">
+                    <p className="text-gray-300 hover:text-white mb-4 text-lg">
+                      {testimonial.content}
+                    </p>
+                    <p className="font-semibold text-white">
+                      - {testimonial.name}
+                    </p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
+        {/* Newsletter Section */}
+        <section className="py-24 px-4">
+          <div className="max-w-md mx-auto text-center">
+            <h2 className="text-2xl font-bold mb-6">Envíanos un mensaje! </h2>
+            <div className="flex gap-2">
+              <Input
+                type="email"
+                placeholder="Email"
+                className="bg-neutral-800 border-neutral-700"
+              />
+              <Link href="mailto:oghousemed@gmail.com" passHref>
+                <Button
+                  //href="mailto:oghousemed@gmail.com"
+                  variant="outline"
+                  className="text-black hover:scale-105 border-black "
+                >
+                  Enviar
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </section>
+      </div>
       {/* Footer */}
       <footer className="py-6 border-t border-neutral-800">
         <div className="max-w-6xl mx-auto px-4 text-center text-sm text-gray-400">
