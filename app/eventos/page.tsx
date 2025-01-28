@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import Navbar from "../navbar";
 
 const eventFeatures = [
   "Música en Vivo",
@@ -89,8 +90,8 @@ const testimonials: TestimonialType[] = [
 
 export default function EventosComponent() {
   return (
-    <section className="min-h-screen bg-black text-white">
-      <motion.nav
+    <section className="min-h-screen bg-black text-white overflow-hidden">
+      {/*<motion.nav
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -118,19 +119,14 @@ export default function EventosComponent() {
             </Button>
           </Link>
 
-          {/*<Link href="/social-cultural" passHref>
-            <Button
-              variant="link"
-              size="sm"
-              className="text-white border-white hover:bg-white/20"
-            >
-              Inicio
-            </Button>
-          </Link>*/}
         </div>
-      </motion.nav>
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-8 lg:px-8">
+      </motion.nav>*/}
+      <Navbar />
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* skills issue  */}
+        <br />
+        <br />
+        <br />
         <motion.h1
           className="text-4xl md:text-5xl font-bold text-white text-center mb-16"
           initial={{ opacity: 0, y: 20 }}

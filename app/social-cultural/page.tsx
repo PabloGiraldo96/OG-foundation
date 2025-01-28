@@ -14,6 +14,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import Navbar from "../navbar";
 
 const educationalPoints = [
   "Conocimiento Integral",
@@ -101,61 +102,29 @@ export default function SocialCultural() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white overflow-hidden">
       {/* Navigation */}
-      <motion.nav
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="flex justify-between h-16 items-center px-4 md:px-8"
-      >
-        <div className="flex items-center">
-          <Link href="/" passHref>
-            <span className="text-xl font-semibold">OG House</span>
-          </Link>
-        </div>
-        <div className="hidden md:flex items-center space-x-8">
-          <Link href="/comercial" passHref>
-            <Button variant="link" className="text-white">
-              Comercial
-            </Button>
-          </Link>
-          <Link href="/eventos" passHref>
-            <Button variant="link" className="text-white">
-              Eventos
-            </Button>
-          </Link>
-          <Link href="/social-cultural" passHref>
-            <Button variant="link" className="text-white">
-              OG Foundation
-            </Button>
-          </Link>
 
-          {/*<Link href="/social-cultural" passHref>
-            <Button
-              variant="link"
-              size="sm"
-              className="text-white border-white hover:bg-white/20"
-            >
-              Inicio
-            </Button>
-          </Link>*/}
-        </div>
-      </motion.nav>
+      <Navbar />
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-16"
           initial="hidden"
           animate="visible"
           variants={fadeInUp}
         >
+          {/* skills issue  */}
+          <br />
+          <br />
+          <br />
+          <br />
           <h1 className="text-4xl md:text-5xl font-bold mb-8">
             Hablemos de Cannabis:
             <br />
             Información y Consumo Responsable
           </h1>
-          <p className="max-w-3xl mx-auto text-lg text-gray-300">
+          <p className="max-w-3xl mx-auto text-lg text-gray-300 mt-8">
             Únete a nosotros para una conversación reveladora y educativa sobre
             el cannabis, diseñada para promover un entendimiento claro y
             responsable de esta planta fascinante. En Hablemos de Cannabis,
@@ -302,7 +271,7 @@ export default function SocialCultural() {
         </p>
       </div>
       <Link href="/" passHref>
-        <Button className="mt-16 ml-56 bg-gray-200 hover:scale-105 bg-opacity-20 text-lg text-white hover:bg-white hover:bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg transition-all duration-200">
+        <Button className="mt-16 ml-20 bg-gray-200 hover:scale-105 bg-opacity-20 text-lg text-white hover:bg-white hover:bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg transition-all duration-200">
           <ArrowLeft className="mr-2 h-4 w-4" /> Volver al inicio
         </Button>
       </Link>

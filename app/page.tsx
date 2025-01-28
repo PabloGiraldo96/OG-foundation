@@ -9,6 +9,7 @@ import ContentGrid from "./content-grid";
 import ResenaComponent from "./resena";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Navbar from "./navbar";
 
 type TestimonialType = {
   name: string;
@@ -56,8 +57,8 @@ const testimonials: TestimonialType[] = [
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-black text-white">
-      <motion.nav
+    <div className="min-h-screen bg-black text-white overflow-hidden">
+      {/*<motion.nav
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -84,25 +85,17 @@ export default function LandingPage() {
               OG Foundation
             </Button>
           </Link>
-
-          {/*<Link href="/social-cultural" passHref>
-            <Button
-              variant="link"
-              size="sm"
-              className="text-white border-white hover:bg-white/20"
-            >
-              Inicio
-            </Button>
-          </Link>*/}
         </div>
-      </motion.nav>
+      </motion.nav>*/}
+
+      <Navbar />
 
       {/* Hero Section */}
       <section
         className="h-screen relative flex items-center justify-center"
         style={{
           backgroundImage: `url(${encodeURI(
-            "https://scontent.feoh1-1.fna.fbcdn.net/v/t1.15752-9/473829422_1672081603662253_1993388561946463660_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEb5oevIvcHcMDbc4-T-JxNdMxYx6Ix9kh0zFjHojH2SAuqW4KlJvC9iSBtih6MyCBV4rPl3_jYzPby8n713Dga&_nc_ohc=vyDaaHXa2DMQ7kNvgGV_us3&_nc_oc=AdjICMwyjB0W43VtCVv5UGcW0Lt3-MK4GHHv7DSRnzsrRut8zcC4IM4V0Gv8FwYCFCW413EvDOYC8dpkQ38fNQ_7&_nc_zt=23&_nc_ht=scontent.feoh1-1.fna&oh=03_Q7cD1gESpgq0UUe2dC7VZk3jXWB7p8I2s_MhrNWSUfDhB-us4Q&oe=67BD222C"
+            "https://ucarecdn.com/359d459f-984e-4a43-a5dd-93308e3d3ea5/-/preview/1000x450/"
           )})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
