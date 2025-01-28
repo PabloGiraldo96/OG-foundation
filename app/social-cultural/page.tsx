@@ -24,6 +24,12 @@ const educationalPoints = [
 ];
 const foundationPoints = ["Compromisos y alianzas", "Impacto positivo"];
 
+//const contactUs: [
+//  { href: ""; label: "instagram" },
+//  { href: "/eventos"; label: "Eventos" },
+//  { href: "/social-cultural"; label: "OG Foundation" }
+//];
+
 const carouselImages = [
   {
     src: "https://ucarecdn.com/3ca555c4-5a57-4027-be81-e329fbda38db/WhatsApp%20Image%202025-01-18%20at%202.37.29%20PM%20(3).jpeg",
@@ -251,17 +257,25 @@ export default function SocialCultural() {
         {/* Hacer clickeable los links de correo, whatsapp e instagram*/}
         <ul className="max-w-3xl mx-auto text-lg text-gray-300">
           <li className="hover:text-white p-2 rounded">
-            {" "}
-            <strong>Instagram:</strong> @oghouse_fundation
+            <Link href="https://www.instagram.com/oghouse_med/" passHref>
+              <strong>Instagram:</strong> @oghouse_fundation
+            </Link>
           </li>
 
           <li className="hover:text-white p-2 rounded">
-            <strong>Correo Electrónico: </strong>{" "}
-            notificacionesogfundacion@gmail.com
+            <Link href="mailto:notificacionesogfundacion@gmail.com" passHref>
+              <strong>Correo Electrónico: </strong>
+              notificacionesogfundacion@gmail.com
+            </Link>
           </li>
 
           <li className="hover:text-white p-2 rounded">
-            <strong>WhatsApp:</strong> +57 314 868 5872
+            <Link
+              href="https://api.whatsapp.com/send?phone=3148685872"
+              passHref
+            >
+              <strong>WhatsApp:</strong> +57 314 868 5872
+            </Link>
           </li>
         </ul>
         <p className="max-w-3xl mx-auto text-lg text-gray-300">
@@ -282,9 +296,8 @@ export default function SocialCultural() {
               placeholder="Email"
               className="bg-neutral-800 border-neutral-700"
             />
-            <Link href="mailto:oghousemed@gmail.com" passHref>
+            <Link href="mailto:notificacionesogfundacion@gmail.com" passHref>
               <Button
-                //href="mailto:oghousemed@gmail.com"
                 variant="outline"
                 className="text-black hover:scale-105 border-black "
               >
