@@ -137,7 +137,6 @@ export default function LandingPage() {
 
       {/*<SocialCultural />*/}
       {/*<EventosComponent />*/}
-
       <section className="py-24 ">
         <div className="max-w-6xl mx-auto px-4 ">
           <h2 className="text-4xl font-bold mb-12 text-center">Comentarios</h2>
@@ -171,12 +170,15 @@ export default function LandingPage() {
               placeholder="Email"
               className="bg-neutral-800 border-neutral-700"
             />
-            <Button
-              variant="outline"
-              className="text-black border-white hover:bg-white/20"
-            >
-              Enviar
-            </Button>
+            <Link href="mailto:oghousemed@gmail.com" passHref>
+              <Button
+                //href="mailto:oghousemed@gmail.com"
+                variant="outline"
+                className="text-black hover:scale-105 border-black "
+              >
+                Enviar
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

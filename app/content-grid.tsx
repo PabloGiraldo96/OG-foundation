@@ -39,7 +39,7 @@ export default function ContentGrid() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <img
-              src="https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/473786823_1007350107938730_7289142650142590888_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_ohc=y4FlPm__CVYQ7kNvgGHp9-4&_nc_oc=Adjd3IUJUCORGXZeezEjJRQuX_MQOZNcs7oUsORNrEndjuxCL2aRNuuhW2yJT8S4L1u_YAWiMGk0wz84JZvOag67&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gHFva0kGzdofGuJFvv1h6Axbk8NYMOBC1tz1LWVJN8OGg&oe=67B97B88"
+              src="https://ucarecdn.com/b65b9644-3bec-4588-b9d4-39b1ed99f748/row1.jpg"
               alt="Imagen OG HOUSE"
               className="w-full h-auto object-cover"
             />
@@ -53,7 +53,7 @@ export default function ContentGrid() {
         >
           <motion.div>
             <img
-              src="https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474453181_1323368262419465_7755474976444173444_n.png?_nc_cat=100&ccb=1-7&_nc_sid=9f807c&_nc_ohc=H9sInir4EpUQ7kNvgEbTb8m&_nc_oc=AdjYkiJ7050Rpqwn3Zr_SvJcZxV3sYdO6RDJe4dFBffCg8baXGxc68eLytBa-yA7DLhMmRv_JVnhTaZNFF_0VZjq&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gHg4sSpFy1jnyF65ELaRwZ_WjnyxvItxaq0hLlSSmCwWg&oe=67B7D918"
+              src="https://ucarecdn.com/ee38179e-d136-49f0-a900-d31ab9274e2d/_MG_4541.jpg"
               alt="Imagen OG HOUSE"
               className="w-full h-auto object-cover"
             />
@@ -89,7 +89,7 @@ export default function ContentGrid() {
           </motion.div>
           <motion.div>
             <img
-              src="https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474168611_3931612663833825_7422054343077827481_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_ohc=9-e1P_C7Gc8Q7kNvgEf_Uoh&_nc_oc=AdjaHFtZGAnHyNwNY_4ub_kSrzZ7ltxnK8P70IH7T3ehKBN7cBH6Usu0o97zdqix_1KBT3cLi6QQr212ZZ7rzOS_&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gFANbdIlfKD90enLvf_6LFHUHyKnSFax9bFVnpG-Bt6ZQ&oe=67B99CF5"
+              src="https://ucarecdn.com/3ee4343a-ffb6-4f39-8504-ba2e62069469/_MG_1190.jpg"
               alt="Imagen OG HOUSE"
               className="w-full h-auto object-cover"
             />

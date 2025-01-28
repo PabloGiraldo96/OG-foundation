@@ -25,27 +25,27 @@ const foundationPoints = ["Compromisos y alianzas", "Impacto positivo"];
 
 const carouselImages = [
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474397575_1836883230182328_8828119257830781432_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=pbSlk4kqlYwQ7kNvgGaFF_t&_nc_oc=Adh0LiWd_mZkly70Ex3429YKgNnX8dDj30tsautX3pHtaaRYVzmJCfczsgidnjzC26skFS20Lzhp6LyGRy2kCuEZ&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gG5N5SqWr03vvl-GXR7q5kDgHJO6zXnsSjF5BLlpEX34w&oe=67B83826",
+    src: "https://ucarecdn.com/3ca555c4-5a57-4027-be81-e329fbda38db/WhatsApp%20Image%202025-01-18%20at%202.37.29%20PM%20(3).jpeg",
     alt: "Equipo",
     title: "Charlas Educativas",
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474855950_28201177292830588_1109585956448414911_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_ohc=1UYHPP-tcuoQ7kNvgGzjQt2&_nc_oc=AdjyIZ5o7pVLfqkXwP9lMBvHgtspB2R066jeXC4IAk0qwxE001a7WFujG1kuHmUxZ_jmewmNfwdW3aiMXQGmiT-I&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gHwbfNfEytoUy9xTDa2xxSVsa7CkqbIppkYTUO3w2MXNg&oe=67B8366B",
+    src: "https://ucarecdn.com/fb4fd0b0-b52a-4360-b9fb-efcb8a54fda6/-/preview/676x1000/",
     alt: "Soldado",
     title: "Charlas Educativas",
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/473087730_3889686047913436_6830444119471911055_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=100&ccb=1-7&_nc_sid=9f807c&_nc_ohc=jXPJ5Sxl33gQ7kNvgG5AR4P&_nc_oc=AdjMJf07MT8scqBFtZ3wqccSHCiZHxJ3Sb1WtTKKA-ORsNTJzhztwVECQ8MkL0-bs15zj82IsN47Ki8HRZEVPTE2&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gHP-0uqeCgdQl1Ew3qvogPqBVLP4kZJwVH8sHg2iQWrEg&oe=67B81F83",
+    src: "https://ucarecdn.com/5c9dde68-c480-47ce-bd8c-0f2d56c7e903/-/preview/750x1000/",
     alt: "Barcos",
     title: "Charlas Educativas",
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/472766591_911201991082382_4967846513380687155_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=C06MC_kbsq0Q7kNvgG8xk-j&_nc_oc=AdgX3ehF0VXVSaSRQ58iFWSnhDytlOIzIEEjhC-AzgzNXzaHD0lDHs6AzB3J8CCtgvNpqV9jWwtOANXGTsMAzz35&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gFGOb14Xoe-_Z35WB125fHi4WrG_vMpTue1uXwnCQgtwA&oe=67B84C56",
+    src: "https://ucarecdn.com/f7bc099f-9eb0-4e5e-a9c7-7bd26c89e963/-/preview/988x1000/",
     alt: "almirante",
     title: "Charlas Educativas",
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474371964_1918022471941378_558386474971067260_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeF1dt8EtIkNzpp6cY3_x4gooiyn2C0yhoOiLKfYLTKGg2FKX7nQR4nDd5Dk2QtOjX3BnIs0_p-9z4PBSVd9e0Xc&_nc_ohc=hOIv9obTMTQQ7kNvgGKAgbQ&_nc_oc=Adjk3os3niyzlnqy9kkUvT5Qj7Igh_h9Xe-3QPbu0MPZZCqNcaYVFXBvH9e3e9-gaax6R7JEd5uBiJQTrUaDDn_j&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gFoyjpwFqFo4iJvxXGOBkdcRRTdzdoaPpUqRwHcB5rOsw&oe=67BC34DC",
+    src: "https://ucarecdn.com/56e4ddc5-5ba3-4e54-9809-11ce3f840c8f/-/preview/1000x684/",
     alt: "SoldadoRaso",
     title: "Charlas Educativas",
   },
@@ -54,32 +54,32 @@ const carouselImages = [
 
 const carouselFundation = [
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474528822_1182561376775328_7429113482292251526_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=FdGy1BAp8CEQ7kNvgEKLRXQ&_nc_oc=Adh-1fllE4ZF6-Ey__LRVzqneV-wEqA7wHTFwZvS3Im9pKhj5eS1Bpiyb7e_rO6dctlEKDGH4FORZGMlNSI9cGwd&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gF6977qU-k_3OAgvhNkgx0lImThjm9yHNT-idyGzJT_Gw&oe=67B8650F",
+    src: "https://ucarecdn.com/6c3167aa-b1e2-48e5-bd85-2e4d9c1db4ff/WhatsApp%20Image%202025-01-18%20at%202.37.12%20PM.jpeg",
     alt: "Perrito",
     title: "OG Foundation",
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/473634627_1696129060935650_1433236836131520066_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=K-On9xrFR9kQ7kNvgEXLXvV&_nc_oc=AdhklUi54_B1N7qHoRUCke0TEdNgAJFjiiCo6JnnhYn4UmJnpFAMUNh1oHqbzWkoMuwM0m-lltYBt8SgbspKh3U1&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gFD6RB1dzn6AQJMhNTI3LPu6G3034J7H79wqXoIjY_BuQ&oe=67B85F57",
+    src: "https://ucarecdn.com/2a10ec00-12ea-4daa-bf00-aecca082452b/WhatsApp%20Image%202025-01-18%20at%202.37.22%20PM.jpeg",
     alt: "ChicaSonriendo",
     title: "OG Foundation",
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474168611_627966759645758_2940025579009505910_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGbllwQqsUw6F0zkWCdDiOAqJqMA2nwlfGomowDafCV8Xw9vAxu2sb1ynjyJ3bqT_DPBmoycdXLVOcJDPTVXwWP&_nc_ohc=aBfbW04MrS8Q7kNvgEjuHuN&_nc_oc=AdhlHY8LPNQbv_Zz3g4f9EEeyI4_pBrC2erDBG3nn_mzJl94rsgau7mlr4TCob0Qyz4RTYbneqejHElgtrQ__D5c&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gHctxqTN8AkKBIYIuLtxTkhlj71nvhiQ-iUWr02qFyMfg&oe=67BC2E92",
+    src: "https://ucarecdn.com/518f2440-8ce2-4852-8849-73c98d09c7bc/WhatsApp%20Image%202025-01-18%20at%202.37.11%20PM.jpeg",
     alt: "Logo",
     title: "OG Foundation",
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474066063_3983270141918283_8585797330011197603_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_ohc=l4dAr6aXO54Q7kNvgETAxyO&_nc_oc=AdiwoxQSwe0ta4aCVBsw9DFPRaL2zLJVLj5KIt30mhpH6AtdW5pDAv0ar1khVnduNm_lAj8ITlBuZzKeb2aFDHkz&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gGFP2YtChLfF8tfC9n-xQWFz2TdrZOHAPS5Wht8mx8d0g&oe=67B85572",
+    src: "https://ucarecdn.com/96b82f33-e95f-4eda-830c-ea3a526b7697/-/preview/772x1000/",
     alt: "Gato",
     title: "OG Foundation",
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474061658_919933179918382_9118448024048392938_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_ohc=Z8WE77UNu8MQ7kNvgER2Mke&_nc_oc=AdhoBjlJyl5m5kyZ3rhncdQUAjYIcisW8sgeNleBAAthajTZ1EkjXOC9Zg9Z4ajV5qDP0nQD6Fg6aQ2JECOTYN9Q&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gHFgqN0jY3HTJ8ime6wRjCgytw2q4dCkDsOov19UTwSlA&oe=67B853CF",
+    src: "https://ucarecdn.com/e9a15a84-63ba-4c43-a395-c1ddc608f07c/-/preview/929x1000/",
     alt: "GatoPequeno",
     title: "OG Foundation",
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/473780478_1818482385571030_2557607163651962119_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeG57wlGnkbBC3yREui-VQgMIuDs3bVTAa4i4OzdtVMBrlybHZjxzgTihMsOiQ0U4Stxo5MryaCduLfzfVYbUTle&_nc_ohc=A4CuQFarde8Q7kNvgE_OkQg&_nc_oc=AdiyQHEQj6osDy1V9EoXfVGTD9L2GtlvyaifZQ-XuY28gfBdw2KhG9uj73GlLDisYqeOHxX0_6bpRwPqYHlEYuxv&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gG-liACf_tazOZhx3g-hpUKbWXXkyS7r5OHjGRZ2KAARg&oe=67BC361F",
+    src: "https://ucarecdn.com/1003d455-60e6-4e44-8864-92363fc9ed08/-/preview/980x1000/",
     alt: "Manos",
     title: "OG Foundation",
   },
@@ -302,7 +302,7 @@ export default function SocialCultural() {
         </p>
       </div>
       <Link href="/" passHref>
-        <Button className="mt-16 ml-56 bg-gray-200 bg-opacity-20 text-white hover:bg-white hover:bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg transition-all duration-200">
+        <Button className="mt-16 ml-56 bg-gray-200 hover:scale-105 bg-opacity-20 text-lg text-white hover:bg-white hover:bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg transition-all duration-200">
           <ArrowLeft className="mr-2 h-4 w-4" /> Volver al inicio
         </Button>
       </Link>

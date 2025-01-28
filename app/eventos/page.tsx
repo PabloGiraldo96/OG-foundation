@@ -30,19 +30,19 @@ type TestimonialType = {
 
 const eventImages = [
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/473918165_1346468019700627_3727385543443355136_n.png?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=1P9TqNR9n7QQ7kNvgEMj7zB&_nc_oc=Adiq1hGNgOSzu9mQbwPVN7-ydRlS252xh3av0vt-DWXXpggz-zkMBSUBym2xKD7S1IJDG_lp-0CfiR5z2criqslb&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gFAhMKOzi-akqd56vAvEHYtnBTBfEh-bZKRTcX-K_eY6A&oe=67BAC215",
+    src: "https://ucarecdn.com/b6d84d1c-677e-4829-9dbe-f758311571ec/-/preview/881x1000/",
     alt: "SMOKE WILD Event Poster",
     width: 600,
     height: 800,
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474058027_1799135530912254_8740867081188147817_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_ohc=8mibjioK1eAQ7kNvgE_Vv2e&_nc_oc=AdgdW3QtH46uJEjfDUIwNU45iySw8IormyqsnydxLeAtJtc2z9KrNFzSIYHLZE8sHDTd1VMVCckGYeIu66zG-1V8&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gHvsAjvU82fVGKIY5QCEFdVikGEvbcp7AjEpCs4gas3JA&oe=67BAE78B",
+    src: "https://ucarecdn.com/8ec5ecb2-54ef-4a42-b8b8-310c06aaef6d/-/preview/746x1000/",
     alt: "Event Details",
     width: 400,
     height: 400,
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474981800_1029723375844894_2200953298378486864_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_ohc=Fy7RdaDLDm4Q7kNvgFIiNGP&_nc_oc=AdgNrdhMHCzfmNaZ7SFaWp5yZeGIbECjP8PRhPIZV1oA8q5V99aLYhFYVpju6TPIZX4M0DFNpLnJf4oyO55JhF7V&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gEEA7hlBfK1XcFEN6AdDcMxiU1nizetOjk8OJgzSKWK3w&oe=67BAD2D9",
+    src: "https://ucarecdn.com/b9ed798a-57a1-431d-8869-866f1e57988b/-/preview/1000x834/",
     alt: "Event Atmosphere",
     width: 400,
     height: 400,
@@ -50,19 +50,19 @@ const eventImages = [
 ];
 const CataImages = [
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474084611_602470525727524_4621281499526197177_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_ohc=E5yUFUCnYVMQ7kNvgEZLB7L&_nc_oc=AdhNV5tN4zur9WX3p0hEfx3tirH2ijgcELDa5PTTf-lf9wVDddHETiIafnoF__5_D-IbIFlDGUt1sD3K_tlbne0t&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gEy3btiLH1nuCw6PvDz7j_xr-nSKxrELQZzzaXwqYYpmQ&oe=67BACBF9",
+    src: "https://ucarecdn.com/799026bc-f57c-4771-aad8-cdf9c04ba37f/-/preview/772x1000/",
     alt: "Catas privadas",
     width: 600,
     height: 800,
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474865897_1793771338067064_224956370267174059_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=er3jAgesxNgQ7kNvgHn9wvb&_nc_oc=AdjuB1AKcjzFarWsAHoBaC_0FV1w5zT4GuOZechCgODg4-7nvhnH-3PBTkkFkGB9RJjsi65tx4zpPotjEcJTX9oK&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gGLSTj_rjNpedWrtwAXvgJz_xKRNy5O-FwOX9pmL6HY_g&oe=67BAE6AF",
+    src: "https://ucarecdn.com/d8b344ad-b0e9-4f72-9476-e375fd5987b2/-/preview/727x1000/",
     alt: "Catas privadas",
     width: 400,
     height: 400,
   },
   {
-    src: "https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/474041699_1599297957363394_8922002904970102401_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_ohc=aPQtNZkolZwQ7kNvgEb1UjW&_nc_oc=Adj9cQQAz3qjadNthnrpnanFL8Bar-bvGrwOUj_VHwq19hQNnEq5UEPFUx8vhs5bRLu_cGZX8QfN8BVDUPO8LuIS&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gHioYvnKdq0gxUnpBvDMayZBUEMmSgI-mEiClK14-2e-w&oe=67BAE1DE",
+    src: "https://ucarecdn.com/e0629cb1-47e4-4ebf-91aa-9696f73beced/-/preview/1000x735/",
     alt: "Catas privadas",
     width: 400,
     height: 400,
@@ -337,7 +337,7 @@ export default function EventosComponent() {
               ))}
             </div>
             <Link href="/" passHref>
-              <Button className="mt-32 ml-6 bg-gray-200 bg-opacity-20 text-white hover:bg-white hover:bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg transition-all duration-200">
+              <Button className="mt-32 ml-6 bg-gray-200 bg-opacity-20 text-lg hover:scale-105 text-white hover:bg-white hover:bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg transition-all duration-200">
                 <ArrowLeft className="mr-2 h-4 w-4" /> Volver al inicio
               </Button>
             </Link>

@@ -12,8 +12,8 @@ type CardInfo = {
 };
 
 const cards: CardInfo[] = [
-  { title: "Qué hacemos en OG house", route: "/core-value" },
-  { title: "Hacia dónde nos dirigimos", route: "/vision" },
+  { title: "Qué hacemos en OG house", route: "/oficio-og" },
+  { title: "Hacia dónde nos dirigimos", route: "/valores" },
 ];
 
 export default function ResenaComponent() {
@@ -51,7 +51,7 @@ export default function ResenaComponent() {
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="https://scontent.feoh3-1.fna.fbcdn.net/v/t1.15752-9/473732082_1102656411608531_7329434150839522037_n.png?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=XYH0wYRmJa0Q7kNvgHFRtU7&_nc_oc=AdhQ3iT1p__fbPHoPgzfCHuvdu6i4azqnxBy3ddONIV9FHHe4IKC5x_VojvlcSAz_JD9Raxpqm-DmPHKOw4GBnTJ&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&oh=03_Q7cD1gHmw2hjiKWCCNjugnf1hruY_N0zHSwraEaDCi8-GBlzEQ&oe=67B87F67"
+          src="https://ucarecdn.com/b6d4368e-3544-4167-a322-e52aaeee7191/_MG_1029.jpg"
           alt="OG House Background"
           fill
           className="object-cover"
@@ -92,7 +92,7 @@ export default function ResenaComponent() {
                   <Button
                     key={index}
                     variant="secondary"
-                    className={`w-full sm:w-auto px-8 py-6 text-base font-medium ${
+                    className={`w-full sm:w-auto hover:scale-105 px-8 py-6 text-base font-medium ${
                       selectedCard === card.title
                         ? "bg-gray-200"
                         : "bg-gray-100 hover:bg-gray-200"
