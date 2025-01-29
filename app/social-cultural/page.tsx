@@ -283,7 +283,7 @@ export default function SocialCultural() {
         </p>
       </div>
       <Link href="/" passHref>
-        <Button className="mt-16 ml-20 bg-gray-200 hover:scale-105 bg-opacity-20 text-lg text-white hover:bg-white hover:bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg transition-all duration-200">
+        <Button className="mt-16 ml-10 bg-gray-200 hover:scale-105 bg-opacity-20 text-lg text-white hover:bg-white hover:bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg transition-all duration-200">
           <ArrowLeft className="mr-2 h-4 w-4" /> Volver al inicio
         </Button>
       </Link>

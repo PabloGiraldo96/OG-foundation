@@ -134,7 +134,7 @@ export default function LandingPage() {
                 placeholder="Email"
                 className="bg-neutral-800 border-neutral-700"
               />
-              <Link href="notificacionesogfundacion@gmail.com" passHref>
+              <Link href="mailto:notificacionesogfundacion@gmail.com" passHref>
                 <Button
                   variant="outline"
                   className="text-black hover:scale-105 border-black "
