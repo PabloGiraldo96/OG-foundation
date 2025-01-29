@@ -31,19 +31,19 @@ type TestimonialType = {
 
 const eventImages = [
   {
-    src: "https://ucarecdn.com/b6d84d1c-677e-4829-9dbe-f758311571ec/-/preview/881x1000/",
+    src: "https://ucarecdn.com/b6d84d1c-677e-4829-9dbe-f758311571ec/IMG_0921.PNG",
     alt: "SMOKE WILD Event Poster",
     width: 600,
     height: 800,
   },
   {
-    src: "https://ucarecdn.com/8ec5ecb2-54ef-4a42-b8b8-310c06aaef6d/-/preview/746x1000/",
+    src: "https://ucarecdn.com/8ec5ecb2-54ef-4a42-b8b8-310c06aaef6d/_MG_4473.jpg",
     alt: "Event Details",
     width: 400,
     height: 400,
   },
   {
-    src: "https://ucarecdn.com/b9ed798a-57a1-431d-8869-866f1e57988b/-/preview/1000x834/",
+    src: "https://ucarecdn.com/b9ed798a-57a1-431d-8869-866f1e57988b/_MG_0865.jpg",
     alt: "Event Atmosphere",
     width: 400,
     height: 400,

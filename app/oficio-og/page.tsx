@@ -19,10 +19,10 @@ import { ArrowLeft } from "lucide-react";
 
 const eventImages = [
   {
-    src: "https://ucarecdn.com/ae373c65-8f49-4832-b410-245ca1af8f0d/_MG_4640.jpg",
+    src: "https://ucarecdn.com/ab9557dd-17a5-4e51-9bd7-2883d8f48f17/_MG_0987.jpg",
     alt: "Que hacemos OG",
     width: 600,
-    height: 800,
+    height: 500,
   },
 ];
 

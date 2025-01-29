@@ -29,11 +29,11 @@ const services: ServiceCard[] = [
     description: "Smoke Wild",
   },
   {
-    title: "OG Foundation",
+    title: "Social Y Cultural",
     route: "/social-cultural",
     image:
-      "https://ucarecdn.com/3635167a-b85a-4498-9e18-e670190e8b16/-/preview/891x1000/",
-    description: "Social Y Cultural",
+      "https://ucarecdn.com/3635167a-b85a-4498-9e18-e670190e8b16/47b2023f-26be-4a1c-96d3-7ffb518891d4.jpg",
+    description: "OG Foundation",
   },
 ];
 

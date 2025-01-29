@@ -37,22 +37,22 @@ const carouselImages = [
     title: "Charlas Educativas",
   },
   {
-    src: "https://ucarecdn.com/fb4fd0b0-b52a-4360-b9fb-efcb8a54fda6/-/preview/676x1000/",
+    src: "https://ucarecdn.com/fb4fd0b0-b52a-4360-b9fb-efcb8a54fda6/IMG_9257.jpg",
     alt: "Soldado",
     title: "Charlas Educativas",
   },
   {
-    src: "https://ucarecdn.com/5c9dde68-c480-47ce-bd8c-0f2d56c7e903/-/preview/750x1000/",
+    src: "https://ucarecdn.com/5c9dde68-c480-47ce-bd8c-0f2d56c7e903/IMG_9259.jpg",
     alt: "Barcos",
     title: "Charlas Educativas",
   },
   {
-    src: "https://ucarecdn.com/f7bc099f-9eb0-4e5e-a9c7-7bd26c89e963/-/preview/988x1000/",
+    src: "https://ucarecdn.com/67955167-a0f6-44ef-b303-f6fe680b7e1e/IMG_9309.jpg",
     alt: "almirante",
     title: "Charlas Educativas",
   },
   {
-    src: "https://ucarecdn.com/56e4ddc5-5ba3-4e54-9809-11ce3f840c8f/-/preview/1000x684/",
+    src: "https://ucarecdn.com/56e4ddc5-5ba3-4e54-9809-11ce3f840c8f/IMG_9312.jpg",
     alt: "SoldadoRaso",
     title: "Charlas Educativas",
   },
@@ -76,17 +76,17 @@ const carouselFundation = [
     title: "OG Foundation",
   },
   {
-    src: "https://ucarecdn.com/96b82f33-e95f-4eda-830c-ea3a526b7697/-/preview/772x1000/",
+    src: "https://ucarecdn.com/96b82f33-e95f-4eda-830c-ea3a526b7697/WhatsApp%20Image%202025-01-18%20at%202.37.22%20PM%20(1).jpeg",
     alt: "Gato",
     title: "OG Foundation",
   },
   {
-    src: "https://ucarecdn.com/e9a15a84-63ba-4c43-a395-c1ddc608f07c/-/preview/929x1000/",
+    src: "https://ucarecdn.com/e9a15a84-63ba-4c43-a395-c1ddc608f07c/WhatsApp%20Image%202025-01-18%20at%202.37.29%20PM%20(1).jpeg",
     alt: "GatoPequeno",
     title: "OG Foundation",
   },
   {
-    src: "https://ucarecdn.com/1003d455-60e6-4e44-8864-92363fc9ed08/-/preview/980x1000/",
+    src: "https://ucarecdn.com/1003d455-60e6-4e44-8864-92363fc9ed08/WhatsApp%20Image%202025-01-18%20at%202.37.29%20PM%20(2).jpeg",
     alt: "Manos",
     title: "OG Foundation",
   },
