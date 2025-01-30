@@ -40,10 +40,29 @@ const inter = Inter({ subsets: ["latin"] });
 //};
 
 export const metadata: Metadata = {
-  title: "OG House - OG Fundacion ",
+  title: "Lineas De Servicio OG House",
   description:
     "En OG HOUSE nos dedicamos a promover el consumo responsable a través de una variedad de iniciativas educativas y prácticas de cultivo en el hogar. Nuestro enfoque abarca desde conversatorios informativos hasta talleres educativos, que buscan proporcionar a nuestros clientes el conocimiento necesario para una experiencia saludable y enriquecedora.",
+  icons: {
+    icon: "/favicon.ico",
+  },
   metadataBase: new URL("https://oghouseweb.com/"),
+
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+
   keywords: [
     "consumo",
     "iniciativas",
