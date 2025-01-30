@@ -9,7 +9,7 @@ import { Menu, X } from "lucide-react";
 const navItems = [
   { href: "/comercial", label: "Comercial" },
   { href: "/eventos", label: "Eventos" },
-  { href: "/social-cultural", label: "OG Foundation" },
+  { href: "/social-cultural", label: "Social y Cultural" },
 ];
 
 export default function Navbar() {
