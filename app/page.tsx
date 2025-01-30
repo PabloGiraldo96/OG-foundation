@@ -10,6 +10,7 @@ import ResenaComponent from "./resena";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Navbar from "./navbar";
+//import type { Metadata } from "next";
 
 type TestimonialType = {
   name: string;
