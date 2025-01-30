@@ -171,6 +171,8 @@ export default function SocialCultural() {
                         alt={image.alt}
                         fill
                         className="object-cover"
+                        loading="lazy"
+                        quality={75}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                       <div className="absolute bottom-0 left-0 right-0 p-6">
